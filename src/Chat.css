@@ -1,0 +1,57 @@
+.Chat {
+  margin: 0;
+  padding: 0;
+}
+
+.User {
+  background-color: #dcdcdc;
+  /* border: 1px solid #a3aab2; */
+  padding: 20px;
+  min-height: 50px;
+}
+.User .user-avatar {
+  background-color: #fefefe;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+.Chat h2 {
+  margin-left: 20px;
+  line-height: 50px;
+}
+.massage .user-avatar {
+  background-color: #dcdcdc;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+.massage .massage-text,
+.my-massage .massage-text {
+  line-height: 2;
+  background-color: rgba(34, 34, 66, 0.813);
+  border-radius: 30px;
+  padding: 5px 15px;
+  margin: 0;
+  color: #fefefe;
+}
+.time {
+  font-size: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  opacity: 0.7;
+}
+.my-massage .massage-text {
+  background-color: #a0a0a0;
+}
+
+.MassageForm {
+  background-color: #dcdcdc;
+  padding: 20px;
+  width: 100%;
+  position:fixed;
+  bottom: 0;
+  }

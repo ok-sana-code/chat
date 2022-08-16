@@ -1,0 +1,28 @@
+.Chats {
+  padding: 0 30px;
+}
+.Chats h1 {
+  color: #5da1ee;
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.Chats .user-avatar {
+  background-color: #DCDCDC;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+.Chats h3{
+    font-size: 20px;
+    margin: 0;
+}
+.Chats .user-info{
+    margin-left: 20px;
+}
+.Chats p{
+    opacity: 0.6;;
+}
