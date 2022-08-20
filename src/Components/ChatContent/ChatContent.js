@@ -93,7 +93,7 @@ export default class ChatContent extends Component {
                 />
               );
             })}
-            
+            <Massage/>
             <div ref={this.messagesEndRef} />
           </div>
         </div>

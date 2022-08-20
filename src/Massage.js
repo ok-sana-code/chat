@@ -2,6 +2,7 @@ import React,{useState} from "react";
 import Time from "./Time";
 import axios from "axios";
 import Avatar from "./Components/ChatList/Avatar";
+import "./Massage.css"
 
 export default function Massage(){
    const [massage, setMassage] = useState("");
@@ -18,7 +19,7 @@ export default function Massage(){
       
       return (
          
-        <div className="massage p-2 d-flex">
+        <div className="Massage p-2 d-flex">
           <Avatar
             isOnline="active"
             image="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTA78Na63ws7B7EAWYgTr9BxhX_Z8oLa1nvOA&usqp=CAU"

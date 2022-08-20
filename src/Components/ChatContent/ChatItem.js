@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Time from "../../Time";
 import Avatar from "../ChatList/Avatar";
-import Massage from "../../Massage";
+
 
 export default class ChatItem extends Component {
   // constructor(props) {
