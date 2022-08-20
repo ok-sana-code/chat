@@ -2,10 +2,11 @@ import React, { Component, createRef} from "react";
 
 import "./chatContent.css";
 import Avatar from "../ChatList/Avatar"
-
+import Massage from "../../Massage"
 import ChatItem from "./ChatItem";
 
 export default class ChatContent extends Component {
+
   messagesEndRef = createRef(null);
   chatItms = [
     {
@@ -92,6 +93,7 @@ export default class ChatContent extends Component {
                 />
               );
             })}
+            
             <div ref={this.messagesEndRef} />
           </div>
         </div>
@@ -103,9 +105,10 @@ export default class ChatContent extends Component {
               onChange={this.onStateChange}
               value={this.state.msg}
             />
-            <button className="btnSendMsg" id="sendMsgBtn">
+
+            <div className="btnSendMsg" id="sendMsgBtn">
               <i className="fa fa-paper-plane"></i>
-            </button>
+            </div>
           </div>
         </div>
       </div>

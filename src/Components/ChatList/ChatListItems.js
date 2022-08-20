@@ -25,21 +25,19 @@ export default class ChatListItems extends Component {
           this.props.active ? this.props.active : ""
         } `}
       >
-        
-        <Avatar
-          image={
-            this.props.image ? this.props.image : "http://placehold.it/80x80"
-          }
-          isOnline={this.props.isOnline}
-        />
-
         <div className="userMeta">
+          <Avatar
+            image={
+              this.props.image ? this.props.image : "http://placehold.it/80x80"
+            }
+            isOnline={this.props.isOnline}
+          />
           <div>
             <p>{this.props.name}</p>
             <p className="lastMassage">Massage from Anna</p>
           </div>
-          <div className="time">Jun 12, 2017</div>
         </div>
+        <div className="time">Jun 12, 2017</div>
       </div>
     );
   }

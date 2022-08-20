@@ -1,6 +1,6 @@
 .main__chatcontent {
-  /* flex-grow: 1; 
-  max-height: 100vh; */
+  flex-grow: 1;
+  /* max-height: 100vh;  */
   border-right: 1px solid #ebe7fb;
 }
 .content__header {
@@ -60,14 +60,12 @@
   padding: 1px;
 }
 .chat__item__content {
-   
   background-color: grey;
   color: #fff;
   padding: 15px;
   border-radius: 30px;
   max-width: 50%;
   min-width: 215px;
-   
 }
 .chat__item__content .chat__meta {
   justify-content: space-between;
@@ -88,7 +86,6 @@
   transform-origin: left;
 }
 .chat__item.other .chat__item__content {
-
   background-color: rgb(41, 37, 52);
   color: #fff;
   border-radius: 30px;
@@ -103,13 +100,13 @@
   color: #d1d1d1;
 }
 .content__footer {
-   
-  position: fixed;
+  position: absolute;
   right: 0;
-  left: 31.5%;
+  width: 100%;
   bottom: 0;
+
   padding: 30px;
-  background-color:  #dcdcdc;
+  background-color: #dcdcdc;
 }
 .sendNewMessage {
   background-color: #fff;
@@ -146,6 +143,5 @@
   outline: none;
 }
 #sendMsgBtn {
-  color:  #dcdcdc;;
-  
+  color: #dcdcdc;
 }
