@@ -7,6 +7,7 @@
   padding: 30px;
   border-bottom: 1px solid #ebe7fb;
   background-color: #dcdcdc;
+  margin-bottom: 30px;
 }
 .current-chatting-user {
   display: flex;
@@ -52,8 +53,9 @@
   }
 }
 .chat__item .avatar {
-  margin-right: 0px;
+  margin-right: 20px;
   margin-left: 20px;
+  margin-bottom: 35px;
   background: #fff;
   padding: 1px;
 }
@@ -94,7 +96,8 @@
 }
 .chat__item.other .avatar {
   margin-right: 20px;
-  margin-left: 0px;
+  margin-left: 20px;
+  margin-bottom: 35px;
 }
 .chat__item.other .chat__item__content .chat__meta span {
   color: #d1d1d1;

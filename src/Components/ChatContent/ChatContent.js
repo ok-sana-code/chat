@@ -1,4 +1,4 @@
-import React, { Component, useState, createRef, useEffect } from "react";
+import React, { Component, createRef} from "react";
 
 import "./chatContent.css";
 import Avatar from "../ChatList/Avatar"
@@ -45,8 +45,8 @@ export default class ChatContent extends Component {
 
   componentDidMount() {
     window.addEventListener("keydown", (e) => {
-      if (e.keyCode == 13) {
-        if (this.state.msg != "") {
+      if (e.keyCode === 13) {
+        if (this.state.msg !== "") {
           this.chatItms.push({
             key: 1,
             type: "",
@@ -84,7 +84,8 @@ export default class ChatContent extends Component {
               return (
                 <ChatItem
                   animationDelay={index + 2}
-                  key={itm.key}
+                  key={index}
+                  // key={itm.key}
                   user={itm.type ? itm.type : "me"}
                   msg={itm.msg}
                   image={itm.image}

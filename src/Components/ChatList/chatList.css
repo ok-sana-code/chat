@@ -7,7 +7,7 @@
   font-weight: 400;
   font-size: 30px;
   margin-top: 20px;
-  margin-left: 20px;
+  margin-left: 30px;
   margin-bottom: 50px;
 }
 .chatlist__items {
@@ -65,6 +65,7 @@
 .userMeta{
   display: flex;
   justify-content:space-between;
+  margin-right: 15px;
 }
 .chatlist__item .userMeta p {
   margin: 0;

@@ -1,7 +1,7 @@
 .SearchForm {
   background-color: #dcdcdc;
   margin: 0;
-  padding: 30px;
+  padding: 30px 50px;
 }
 .SearchForm .user-avatar {
   background-color: #fefefe;
@@ -10,4 +10,12 @@
   height: 50px;
   text-align: center;
   line-height: 50px;
+}
+.search-form {
+  background-color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  outline: none;
+  width: 100%;
 }

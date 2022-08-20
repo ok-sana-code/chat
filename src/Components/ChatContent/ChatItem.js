@@ -4,9 +4,9 @@ import Avatar from "../ChatList/Avatar";
 
 
 export default class ChatItem extends Component {
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
   render() {
     return (
       <div
